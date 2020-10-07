@@ -1,14 +1,13 @@
 {
-  "name": "gallery",
-  "version": "1.0.1",
-  "description": "Gallery Materialize Theme",
+  "name": "vesecurity.com",
+  "version": "0.5.1",
+  "description": "VE Security Website",
   "main": "Gruntfile.js",
-  "directories": {
-    "doc": "docs"
-  },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "hammerjs": "^2.0.4",
     "jquery": "^2.1.4",
+    "materialize-social": "^1.0.3",
     "node-archiver": "^0.2.0"
   },
   "devDependencies": {
@@ -38,5 +37,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alan Chang"
+  "author": "lol"
 }
