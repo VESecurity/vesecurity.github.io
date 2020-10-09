@@ -1,7 +1,6 @@
 (function ($) {
   $(function () {
 
-
     // Navbar
     $(".button-collapse").sideNav();
     var categories = $('nav .categories-container');
@@ -77,9 +76,6 @@
       e.preventDefault();
     });
 
-    //Dropdown Trigger
-    $('.dropdown-trigger').dropdown();
-
     // Contact Form Icon
     $("form .form-control").focus(function () {
       $(this).siblings("label").first().children("i").first().css({
@@ -111,6 +107,9 @@
       fillScreen: true,
       inDuration: 500,
     });
+
+    //Dropdown Trigger
+    $('.dropdown-trigger').dropdown();
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
