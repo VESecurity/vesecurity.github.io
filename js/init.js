@@ -108,8 +108,13 @@
       inDuration: 500,
     });
 
-    //Dropdown Trigger
-    $('.dropdown-trigger').dropdown();
 
   }); // end of document ready
+
+
+
+  $(document).ready(function(){
+    $('.dropdown-trigger').dropdown();
+ });
+
 })(jQuery); // end of jQuery name space
